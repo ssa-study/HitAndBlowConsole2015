@@ -1,3 +1,5 @@
+// Hit and Blowが正しく動作するか確認するためのテストコード
+
 #include "HitAndBlow.h"
 #include <boost/detail/lightweight_test.hpp>
 

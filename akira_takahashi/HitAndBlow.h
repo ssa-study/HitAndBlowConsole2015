@@ -1,6 +1,11 @@
 #ifndef HIT_AND_BLOW_INCLUDE
 #define HIT_AND_BLOW_INCLUDE
 
+// Copyright Akira Takahashi 2015
+// Use, modification and distribution is subject to the Boost Software License,
+// Version 1.0. (See accompanying file LICENSE_1_0.txt or copy at
+// http://www.boost.org/LICENSE_1_0.txt)
+
 #include <string>  // for string
 #include <utility> // for move
 #include <cstddef> // for size_t

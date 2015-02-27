@@ -46,7 +46,7 @@ void testClear()
     const Result result = game.askUser(game.getAnswerForDebug());
     BOOST_TEST(game.isClear(result));
 
-    // 間違った回答を作って入力することｄ，ゲームクリアとならないこと
+    // 間違った回答を作って入力することで、ゲームクリアとならないこと
     const std::string answer = game.getAnswerForDebug();
     const std::string badAnswer = answer.substr(0, answer.size() - 1) +
                                     (answer.back() == '0' ? '1' : '0');
